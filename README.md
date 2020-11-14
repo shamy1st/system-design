@@ -1,7 +1,6 @@
 # System Design
 
 ## Fundamentals
-* System Design Basics
 * Key Characteristics of Distributed Systems
 * Load Balancing
 * Caching
