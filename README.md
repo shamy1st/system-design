@@ -27,14 +27,22 @@
 
 
 ### Load Balancing
-* Caching
-* Data Partitioning
-* Indexes
-* Proxies
-* Redundancy and Replication
-* SQL vs. NoSQL
-* CAP Theorem
-* Long-Polling vs WebSockets vs Server-Sent Events
+
+### Caching
+
+### Data Partitioning
+
+### Indexes
+
+### Proxies
+
+### Redundancy and Replication
+
+### SQL vs. NoSQL
+
+### CAP Theorem
+
+### Long-Polling vs WebSockets vs Server-Sent Events
 
 ## Problems
 * System Design Interviews: A step by step guide
