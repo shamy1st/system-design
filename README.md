@@ -73,6 +73,25 @@
 
 ### Caching
 
+  * A cache is like short-term memory: it has a limited amount of space, but is typically faster than the original data source and contains the most recently accessed items.
+  * Caches take advantage of the locality of **reference principle**: recently requested data is likely to be requested again.
+  * They are used in almost every layer of computing: hardware, operating systems, web browsers, web applications, and more.
+  * **Content Distribution Network (CDN)**
+    * CDNs are a kind of cache that comes into play for sites serving large amounts of static media.
+    * If the system we are building isn’t yet large enough to have its own CDN, we can use a separate subdomain (e.g. static.yourservice.com) using a lightweight HTTP server like Nginx.
+  * **Cache Invalidation** if the data is modified in the database, it should be invalidated in the cache; if not, this can cause inconsistent application behavior.
+    * three main schemes used to solve this problem:
+      1. **Write-through cache** data is written into the cache and the corresponding database at the same time.
+      2. **Write-around cache** data is written directly to permanent storage, bypassing the cache.
+      3. **Write-back cache** data is written to cache alone and completion is immediately confirmed to the client.
+  * **Cache Eviction Policies**
+    1. **First In First Out (FIFO)**: The cache evicts the first block accessed first without any regard to how often or how many times it was accessed before.
+    2. **Last In First Out (LIFO)**: The cache evicts the block accessed most recently first without any regard to how often or how many times it was accessed before.
+    3. **Least Recently Used (LRU)**: Discards the least recently used items first.
+    4. **Most Recently Used (MRU)**: Discards, in contrast to LRU, the most recently used items first.
+    5. **Least Frequently Used (LFU)**: Counts how often an item is needed. Those that are used least often are discarded first.
+    6. **Random Replacement (RR)**: Randomly selects a candidate item and discards it to make space when necessary.
+
 ### Data Partitioning
 
 ### Indexes
