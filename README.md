@@ -49,20 +49,23 @@
 ### Load Balancing
 
 **Load Balancer**: helps to spread the traffic across a cluster of servers to improve responsiveness and availability of applications, websites or databases.
-    * **LB** also keeps track of the status of all the resources while distributing requests.
-    * If a server is not available to take new requests or is not responding or has elevated error rate, LB will stop sending traffic to such a server.
-    * Typically a load balancer sits between the client and the servers.
+    
+  * **LB** also keeps track of the status of all the resources while distributing requests.
+  * If a server is not available to take new requests or is not responding or has elevated error rate, LB will stop sending traffic to such a server.
+  * Typically a load balancer sits between the client and the servers.
+
 ![](https://github.com/shamy1st/system-design/blob/main/images/load-balancer-places.png)
-    * Benefits of Load Balancing
-    * Load Balancing Algorithms
-      * Least Connection Method
-      * Least Response Time Method
-      * Least Bandwidth Method
-      * Round Robin Method
-      * Weighted Round Robin Method
-      * IP Hash
-    * Redundant Load Balancers
-      * The load balancer can be a single point of failure; to overcome this, a second load balancer can be connected to the first to form a cluster.
+
+  * Benefits of Load Balancing
+  * Load Balancing Algorithms
+    * Least Connection Method
+    * Least Response Time Method
+    * Least Bandwidth Method
+    * Round Robin Method
+    * Weighted Round Robin Method
+    * IP Hash
+  * Redundant Load Balancers
+    * The load balancer can be a single point of failure; to overcome this, a second load balancer can be connected to the first to form a cluster.
 ![](https://github.com/shamy1st/system-design/blob/main/images/load-balancer-redundant.png)
 
 ### Caching
