@@ -48,10 +48,10 @@
 
 ### Load Balancing
 
-**Load Balancer**: helps to spread the traffic across a cluster of servers to improve responsiveness and availability of applications, websites or databases.
-  * **LB** also keeps track of the status of all the resources while distributing requests.
-  * If a server is not available to take new requests or is not responding or has elevated error rate, LB will stop sending traffic to such a server.
-  * Typically a load balancer sits between the client and the servers.
+  * **Load Balancer**: helps to spread the traffic across a cluster of servers to improve responsiveness and availability of applications, websites or databases.
+    * **LB** also keeps track of the status of all the resources while distributing requests.
+    * If a server is not available to take new requests or is not responding or has elevated error rate, LB will stop sending traffic to such a server.
+    * Typically a load balancer sits between the client and the servers.
 
 ![](https://github.com/shamy1st/system-design/blob/main/images/load-balancer-places.png)
 
