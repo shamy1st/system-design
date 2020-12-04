@@ -94,6 +94,28 @@
 
 ### Data Partitioning
 
+  * **Data partitioning** is a technique to break up a big database (DB) into many smaller parts.
+  * **Partitioning Methods** 
+    1. **Horizontal partitioning** put different rows into different tables.
+        * For example, if we are storing different places in a table, we can decide that locations with ZIP codes less than 10000 are stored in one table and places with ZIP codes greater than 10000 are stored in a separate table.
+        * also called **Data Sharding**
+        * The key problem with this approach is that if the value whose range is used for partitioning isn’t chosen carefully, then the partitioning scheme will lead to unbalanced servers.
+    2. **Vertical Partitioning** divide our data to store tables related to a specific feature in their own server.
+        * For example, if we are building Instagram like application - where we need to store data related to users, photos they upload, and people they follow - we can decide to place user profile information on one DB server, friend lists on another, and photos on a third server.
+        * The main problem with this approach is that if our application experiences additional growth, then it may be necessary to further partition a feature specific DB across various servers (e.g. it would not be possible for a single server to handle all the metadata queries for 10 billion photos by 140 million users).
+    3. **Directory Based Partitioning**
+        * A loosely coupled approach to work around issues mentioned in the above schemes is to create a lookup service which knows your current partitioning scheme and abstracts it away from the DB access code.
+        * So, to find out where a particular data entity resides, we query the directory server that holds the mapping between each tuple key to its DB server.
+  * **Partitioning Criteria**
+    * Key or Hash-based partitioning
+    * List partitioning
+    * Round-robin partitioning
+    * Composite partitioning
+  * **Common Problems of Data Partitioning**
+    * Joins and Denormalization
+    * Referential integrity
+    * Rebalancing
+
 ### Indexes
 
 ### Proxies
