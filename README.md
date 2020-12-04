@@ -57,6 +57,9 @@
 ![](https://github.com/shamy1st/system-design/blob/main/images/load-balancer-places.png)
 
   * Benefits of Load Balancing
+    * Users experience faster.
+    * Service providers experience less downtime and higher throughput.
+    
   * Load Balancing Algorithms
     * Least Connection Method
     * Least Response Time Method
@@ -64,6 +67,7 @@
     * Round Robin Method
     * Weighted Round Robin Method
     * IP Hash
+    
   * Redundant Load Balancers
     * The load balancer can be a single point of failure; to overcome this, a second load balancer can be connected to the first to form a cluster.
 ![](https://github.com/shamy1st/system-design/blob/main/images/load-balancer-redundant.png)
