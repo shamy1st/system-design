@@ -118,6 +118,12 @@
 
 ### Indexes
 
+  * The goal of creating an index on a particular table in a database is to make it faster to search through the table and find the row or rows that we want.
+  * An index can dramatically speed up data retrieval but may itself be large due to the additional keys, which slow down data insertion & update.
+  * When adding rows or making updates to existing rows for a table with an active index, we not only have to write the data but also have to update the index.
+  * This will decrease the write performance. This performance degradation applies to all insert, update, and delete operations for the table.
+  * For this reason, adding unnecessary indexes on tables should be avoided and indexes that are no longer used should be removed.
+
 ### Proxies
 
 ### Redundancy and Replication
