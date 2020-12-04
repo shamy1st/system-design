@@ -29,20 +29,20 @@
 
    * Let’s assume we have an operation that runs in a distributed manner and delivers a set of items as result.
    * Two standard measures of its efficiency:
-    1. the **response time** (or latency) that denotes the delay to obtain the first item.
-    2. the **throughput** (or bandwidth) which denotes the number of items delivered in a given time unit (e.g., a second).
+      1. the **response time** (or latency) that denotes the delay to obtain the first item.
+      2. the **throughput** (or bandwidth) which denotes the number of items delivered in a given time unit (e.g., a second).
    * The two measures correspond to the following unit costs:
-    1. Number of messages globally sent by the nodes of the system regardless of the message size.
-    2. Size of messages representing the volume of data exchanges.
+      1. Number of messages globally sent by the nodes of the system regardless of the message size.
+      2. Size of messages representing the volume of data exchanges.
 
 
 5. **Manageability (Serviceability)** how easy it is to operate and maintain.
 
    * If the time to fix a failed system increases, then availability will decrease.
    * Things to consider for manageability:
-    1. the ease of diagnosing and understanding problems when they occur.
-    2. ease of making updates or modifications.
-    3. how simple the system is to operate(i.e., does it routinely operate without failure or exceptions?).
+      1. the ease of diagnosing and understanding problems when they occur.
+      2. ease of making updates or modifications.
+      3. how simple the system is to operate(i.e., does it routinely operate without failure or exceptions?).
    * Early detection of faults can decrease or avoid system downtime.
 
 
