@@ -154,7 +154,36 @@
 
 ### SQL vs. NoSQL
 
+  * Relational databases are structured and have predefined schemas like phone books that store phone numbers and addresses.
+  * Non-relational databases are unstructured, distributed, and have a dynamic schema like file folders that hold everything from a person’s address and phone number to their Facebook ‘likes’ and online shopping preferences.
+  
+  * **SQL** like MySQL, Oracle, MS SQL Server, SQLite, Postgres, and MariaDB.
+  
+  * **NoSQL** most common types:
+    1. **Key-Value Stores** like Redis, Voldemort, and Dynamo.
+    2. **Document Databases** like CouchDB and MongoDB.
+    3. **Wide-Column Databases** like Cassandra and HBase.
+    4. **Graph Databases** like Neo4J and InfiniteGraph.
+
+  * **Differences between SQL and NoSQL**
+    * Storage
+    * Schema
+    * Querying
+    * Scalability
+    * Reliability or ACID Compliancy (Atomicity, Consistency, Isolation, Durability)
+
+  * **Reasons to use SQL database**
+    * We need to ensure ACID compliance.
+    * Your data is structured and unchanging.
+    
+  * **Reasons to use NoSQL database**
+    * Storing large volumes of data that often have little to no structure.
+    * Making the most of cloud computing and storage.
+    * Rapid development.
+
 ### CAP Theorem
+
+### Consistent Hashing
 
 ### Long-Polling vs WebSockets vs Server-Sent Events
 
