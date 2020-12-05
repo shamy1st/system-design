@@ -10,8 +10,12 @@
 7. Identifying and resolving bottlenecks
 
 ## Design
-1. TinyURL
+
+### Easy
+1. TinyURL 
 2. Pastebin
+
+### Medium
 3. [Instagram](https://github.com/shamy1st/system-design-instagram)
 4. Dropbox
 5. Facebook Messenger
@@ -20,6 +24,8 @@
 8. Typeahead Suggestion
 9. API Rate Limiter
 10. Twitter Search
+
+### Hard
 11. Web Crawler
 12. Facebook’s Newsfeed
 13. Yelp or Nearby Friends
