@@ -3,20 +3,20 @@
 ### Step by Step Guide
 
 ## Case Study
-1. Designing a URL Shortening service like TinyURL
-2. Designing Pastebin
-3. Designing Instagram
-4. Designing Dropbox
-5. Designing Facebook Messenger
-6. Designing Twitter
-7. Designing Youtube or Netflix
-8. Designing Typeahead Suggestion
-9. Designing an API Rate Limiter
-10. Designing Twitter Search
-11. Designing a Web Crawler
-12. Designing Facebook’s Newsfeed
-13. Designing Yelp or Nearby Friends
-14. Designing Uber backend
+1. Design TinyURL
+2. Design Pastebin
+3. Design Instagram
+4. Design Dropbox
+5. Design Facebook Messenger
+6. Design Twitter
+7. Design Youtube or Netflix
+8. Design Typeahead Suggestion
+9. Design an API Rate Limiter
+10. Design Twitter Search
+11. Design a Web Crawler
+12. Design Facebook’s Newsfeed
+13. Design Yelp or Nearby Friends
+14. Design Uber backend
 15. Design Ticketmaster
 
 ## Fundamentals
