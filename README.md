@@ -2,12 +2,13 @@
 
 ## Step by Step Guide
 1. Requirements
-2. Estimation
-3. System Interface
-4. Data Model
-5. High-level Design
-6. Low-level Design
-7. Bottlenecks
+2. Design Considerations
+3. Estimation
+4. High-level Design
+5. Database Model
+6. System Interface
+7. Low-level Design
+8. Bottlenecks
 
 ## Design
 
