@@ -9,22 +9,22 @@
 6. Detailed design
 7. Identifying and resolving bottlenecks
 
-## Case Study
-1. Design TinyURL
-2. Design Pastebin
-3. Design Instagram
-4. Design Dropbox
-5. Design Facebook Messenger
-6. Design Twitter
-7. Design Youtube or Netflix
-8. Design Typeahead Suggestion
-9. Design an API Rate Limiter
-10. Design Twitter Search
-11. Design a Web Crawler
-12. Design Facebook’s Newsfeed
-13. Design Yelp or Nearby Friends
-14. Design Uber backend
-15. Design Ticketmaster
+## Design
+1. TinyURL
+2. Pastebin
+3. [Instagram](https://github.com/shamy1st/system-design-instagram)
+4. Dropbox
+5. Facebook Messenger
+6. Twitter
+7. Youtube or Netflix
+8. Typeahead Suggestion
+9. API Rate Limiter
+10. Twitter Search
+11. Web Crawler
+12. Facebook’s Newsfeed
+13. Yelp or Nearby Friends
+14. Uber backend
+15. Ticketmaster
 
 ## Fundamentals
 
