@@ -1,5 +1,24 @@
 # System Design
 
+### Step by Step Guide
+
+## Case Study
+1. Designing a URL Shortening service like TinyURL
+2. Designing Pastebin
+3. Designing Instagram
+4. Designing Dropbox
+5. Designing Facebook Messenger
+6. Designing Twitter
+7. Designing Youtube or Netflix
+8. Designing Typeahead Suggestion
+9. Designing an API Rate Limiter
+10. Designing Twitter Search
+11. Designing a Web Crawler
+12. Designing Facebook’s Newsfeed
+13. Designing Yelp or Nearby Friends
+14. Designing Uber backend
+15. Design Ticketmaster
+
 ## Fundamentals
 
 ### Key Characteristics of Distributed Systems
@@ -237,23 +256,3 @@
 
 
 ### Long-Polling vs WebSockets vs Server-Sent Events
-
-
-
-## Problems
-* System Design Interviews: A step by step guide
-* Designing a URL Shortening service like TinyURL
-* Designing Pastebin
-* Designing Instagram
-* Designing Dropbox
-* Designing Facebook Messenger
-* Designing Twitter
-* Designing Youtube or Netflix
-* Designing Typeahead Suggestion
-* Designing an API Rate Limiter
-* Designing Twitter Search
-* Designing a Web Crawler
-* Designing Facebook’s Newsfeed
-* Designing Yelp or Nearby Friends
-* Designing Uber backend
-* Design Ticketmaster
