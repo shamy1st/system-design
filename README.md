@@ -23,18 +23,6 @@
 14. Uber backend
 15. Ticketmaster
 
-
-## Step by Step Guide
-1. Requirements
-2. Design Considerations
-3. Estimation
-4. High-level Design
-5. Database Model
-6. System Interface
-7. Low-level Design
-8. Bottlenecks
-
-
 ## Fundamentals
 
 ### Key Characteristics of Distributed Systems
