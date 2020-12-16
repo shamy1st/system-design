@@ -3,6 +3,7 @@
 ## Case Studies
 
 Easy
+
 1. [TinyURL](https://github.com/shamy1st/system-design-tiny-url) 
 2. Pastebin
 
