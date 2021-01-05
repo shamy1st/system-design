@@ -185,11 +185,7 @@ Hard
   
   * **SQL** like MySQL, Oracle, MS SQL Server, SQLite, Postgres, and MariaDB.
   
-  * **NoSQL** most common types:
-    1. **Key-Value Stores** like Redis, Voldemort, and Dynamo.
-    2. **Document Databases** like CouchDB and MongoDB.
-    3. **Wide-Column Databases** like Cassandra and HBase.
-    4. **Graph Databases** like Neo4J and InfiniteGraph.
+  * [NoSQL most common types](https://github.com/shamy1st/nosql)
 
   * **Differences between SQL and NoSQL**
     * Storage
