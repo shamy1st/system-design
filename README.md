@@ -26,6 +26,10 @@ Hard
 14. Uber backend
 15. Ticketmaster
 
+Mine
+
+1. [tmOS](https://github.com/shamy1st/system-design-tmos)
+
 ## Fundamentals
 
 ### Key Characteristics of Distributed Systems
