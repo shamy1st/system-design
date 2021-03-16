@@ -3,12 +3,10 @@
 ## Case Studies
 
 Easy
-
 1. [TinyURL](https://github.com/shamy1st/system-design-tiny-url) 
 2. [Pastebin](https://github.com/shamy1st/system-design-pastebin)
 
 Medium
-
 3. [Instagram](https://github.com/shamy1st/system-design-instagram)
 4. Dropbox
 5. Facebook Messenger
@@ -19,7 +17,6 @@ Medium
 10. Twitter Search
 
 Hard
-
 11. Web Crawler
 12. Facebook’s Newsfeed
 13. Yelp or Nearby Friends
@@ -27,7 +24,6 @@ Hard
 15. Ticketmaster
 
 Mine
-
 1. [tmOS](https://github.com/shamy1st/system-design-tmos)
 
 ## Fundamentals
