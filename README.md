@@ -2,11 +2,11 @@
 
 ## Case Studies
 
-Easy
+### Easy
 1. [TinyURL](https://github.com/shamy1st/system-design-tiny-url) 
 2. [Pastebin](https://github.com/shamy1st/system-design-pastebin)
 
-Medium
+### Medium
 3. [Instagram](https://github.com/shamy1st/system-design-instagram)
 4. Dropbox
 5. Facebook Messenger
@@ -16,14 +16,14 @@ Medium
 9. API Rate Limiter
 10. Twitter Search
 
-Hard
+### Hard
 11. Web Crawler
 12. Facebook’s Newsfeed
 13. Yelp or Nearby Friends
 14. Uber backend
 15. Ticketmaster
 
-Mine
+### Mine
 1. [tmOS](https://github.com/shamy1st/system-design-tmos)
 
 ## Fundamentals
